@@ -1,7 +1,7 @@
 {
   "name": "sensor-station",
   "description": "It is a sensor station built by Node.js. You can run the sensor station in cross-platform(Mac, Linux, and Windows).",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": {
     "name": "Evan Tseng",
     "email": "evan@tseng.io"
