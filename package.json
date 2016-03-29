@@ -6,6 +6,12 @@
     "name": "Evan Tseng",
     "email": "evan@tseng.io"
   },
+  "contributors": [
+    {
+      "name": "Eddie Lin",
+      "email": "yshlin@gmail.com"
+    }
+  ],
   "license": "MIT",
   "repository": {
     "type": "git",
