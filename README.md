@@ -1,7 +1,5 @@
 # JS Station
-It is a sensor station built by [Node.js](https://nodejs.org). You can run the sensor station in cross-platform(Mac, Linux, and Windows).
-
-Currently, in [SensorWeb](http://sensorweb.io) project, we use it to make a PM2.5 device.
+It is a sensor station built by [Node.js](https://nodejs.org). You can run the sensor station in cross-platform(Mac, Linux, and Windows). Currently, in [SensorWeb](http://sensorweb.io) project, we use it to make a PM2.5 device.
 
 ## How to Run
 1. Clone the repo.
