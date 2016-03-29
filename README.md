@@ -8,5 +8,5 @@ It is a sensor station built by [Node.js](https://nodejs.org). You can run the s
 4. Do `node app.js`.
 5. Done.
 
-## Maintainer
+## Maintainers
 * [Evan Tseng](https://github.com/evanxd)
