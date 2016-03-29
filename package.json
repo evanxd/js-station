@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "dependencies": {
     "eventemitter2": "1.0.0",
-    "request": "2.69.0"
+    "request": "2.69.0",
+    "serialport": "2.0.6 "
   }
 }
