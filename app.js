@@ -13,7 +13,7 @@ serialDevice.on('data', function(data) {
     err && console.error(err);
     body && console.log(body);
   });
-  console.log('PM2.5 index data: ' + data.pm25);
   console.log('PM1.0 index data: ' + data.pm10);
+  console.log('PM2.5 index data: ' + data.pm25);
   console.log('PM10 index data: ' + data.pm100);
 });
