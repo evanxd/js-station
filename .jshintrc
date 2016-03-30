@@ -1,0 +1,7 @@
+{
+  "globalstrict": true,
+  "strict": true,
+  "maxlen": 80,
+  "esnext": true,
+  "node": true
+}
