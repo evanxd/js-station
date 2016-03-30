@@ -2,7 +2,7 @@
 
 var request = require('request');
 var config = require('./config');
-var serialDevice = require('./lib/' + config.serialDeviceType);
+var serialDevice = require(`./lib/${config.serialDeviceType}`);
 var POST_API = `http://${config.server}:${config.port}/sensors/` +
                `${config.sensorKey}/data?apiKey=${config.apiKey}`;
 
