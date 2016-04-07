@@ -8,5 +8,9 @@ It is a sensor station built by [Node.js](https://nodejs.org). You can run the s
 4. Do `node app.js`.
 5. Done.
 
+## Features
+### USB TTL
+Please install the [PL2303 Windows Driver](http://goo.gl/KuqY4h) first.
+
 ## Maintainers
 * [Evan Tseng](https://github.com/evanxd)
