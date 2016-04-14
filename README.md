@@ -12,6 +12,9 @@ Since our first initiative is to build a PM2.5 sensor network, we will demostrat
   - You can use Arduino as a serial adapter, which will allow you to connect more different sensors in the future.
 - Plantower PM Sensor with Cable
   - Currently only tested with [PMS3003][PMS3003]
+  - 5V input, communicate via UART
+  - Great accuracy according to [comparative measurment on AQICN][aqicn-measurment]
+  - $17 USD
 
 ## Setup Steps
 
@@ -61,3 +64,4 @@ Run `node app.js` then you'll see console output if success.
 [CP2102]: http://goo.gl/jSnHO0
 [FT232RL]: http://goo.gl/IYHhQI
 [ArduinoIDE]: https://www.arduino.cc/en/Main/Software
+[aqicn-measurment]: http://aqicn.org/sensor/
