@@ -22,7 +22,7 @@ Below are driver download links for supported adapters:
 * [FT232RL Driver][FT232RL]
 * [CP2102 Driver][CP2102]
 
-If you are using Arduino, simply upload the firmware below with Arduino IDE.
+If you are using Arduino, simply upload the firmware below with Arduino IDE.  
 `https://github.com/sensor-web/arduino-station/blob/master/sensor/plantower-pms3003/plantower-pms3003.ino`
 
 ### Step 2: Connect Sensor
