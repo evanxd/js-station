@@ -6,11 +6,12 @@ This is a [node.js][nodejs] based sensor station, it reads data from USB serial 
 Since our first initiative is to build a PM2.5 sensor network, we will demostrate below how to setup the station with PM sensor connected.
 
 ## Hardware Requirements
-* USB 2 TTL Adapter
-** Currently tested adapters are based on PL2303/FT232RL/CP2102 chipsets, please make sure your adapter have 5V output.
-** You can use Arduino as a serial adapter, which will allow you to connect more different sensors in the future.
-* Plantower PM Sensor with Cable
-** Currently only tested with PMS3003
+
+- USB 2 TTL Adapter
+  - Currently tested adapters are based on PL2303/FT232RL/CP2102 chipsets, make sure yours have 5V output.
+  - You can use Arduino as a serial adapter, which will allow you to connect more different sensors in the future.
+- Plantower PM Sensor with Cable
+  - Currently only tested with PMS3003
 
 ## Setup Steps
 
