@@ -11,7 +11,7 @@ Since our first initiative is to build a PM2.5 sensor network, we will demostrat
   - Currently tested adapters are based on PL2303/FT232RL/CP2102 chipsets, make sure yours have 5V output.
   - You can use Arduino as a serial adapter, which will allow you to connect more different sensors in the future.
 - Plantower PM Sensor with Cable
-  - Currently only tested with PMS3003
+  - Currently only tested with [PMS3003][PMS3003]
 
 ## Setup Steps
 
@@ -56,6 +56,7 @@ Run `node app.js` then you'll see console output if success.
 * [Eddie Lin](https://github.com/yshlin)
 
 [nodejs]: http://nodejs.org
+[PMS3003]: https://goo.gl/CIVGjF
 [PL2303]: http://goo.gl/KuqY4h
 [CP2102]: http://goo.gl/jSnHO0
 [FT232RL]: http://goo.gl/IYHhQI
