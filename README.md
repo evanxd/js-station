@@ -22,7 +22,7 @@ Below are driver download links for supported adapters:
 * [FT232RL Driver][FT232RL]
 * [CP2102 Driver][CP2102]
 
-If you are using Arduino, simply upload the firmware below with Arduino IDE.  
+If you are using Arduino, simply upload the firmware below with [Arduino IDE][ArduinoIDE].  
 `https://github.com/sensor-web/arduino-station/blob/master/sensor/plantower-pms3003/plantower-pms3003.ino`
 
 ### Step 2: Connect Sensor
@@ -56,5 +56,6 @@ Run `node app.js` then you'll see console output if success.
 
 [nodejs]: http://nodejs.org
 [PL2303]: http://goo.gl/KuqY4h
-[CP2012]: http://goo.gl/jSnHO0
+[CP2102]: http://goo.gl/jSnHO0
 [FT232RL]: http://goo.gl/IYHhQI
+[ArduinoIDE]: https://www.arduino.cc/en/Main/Software
