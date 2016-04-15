@@ -10,12 +10,15 @@ Since our first initiative is to build a PM2.5 sensor network, we will demostrat
   - Currently we only develope and test it on [Arduino Uno][arduino-uno].
 - USB 2 TTL Adapter
   - Currently tested adapters are based on PL2303/FT232RL/CP2102 chipsets, make sure yours have 5V output.
-  - You can use Arduino as a serial adapter, which will allow you to connect more different sensors in the future.
 - Plantower PM Sensor with Cable
   - Currently only tested with [PMS3003][PMS3003]
   - 5V input, communicate via UART
   - Great accuracy according to [comparative measurment on AQICN][aqicn-measurment]
   - $17 USD
+
+for Arduino and USB 2 TTL adapter, you only need one of them to get started.  
+Arduino will allow you to connect more different sensors in the future.
+
 
 ## Setup Steps
 
