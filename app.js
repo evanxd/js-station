@@ -16,7 +16,7 @@ device.on('data', function(data) {
       console.log(body);
     }
   });
-  console.log('PM1.0 index: ' + data.pm10);
-  console.log('PM2.5 index: ' + data.pm25);
-  console.log('PM10 index: ' + data.pm100);
+  console.log('PM1.0: ' + data.pm10);
+  console.log('PM2.5: ' + data.pm25);
+  console.log('PM10: ' + data.pm100);
 });
