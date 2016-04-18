@@ -3,5 +3,6 @@
   "strict": true,
   "maxlen": 80,
   "esnext": true,
-  "node": true
+  "node": true,
+  "-W030": true
 }

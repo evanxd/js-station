@@ -10,13 +10,7 @@ device.on('data', function(data) {
   request.post(POST_API, {
     form: { pm25Index: data.pm25 }
   }, function(err, response, body) {
-    if (err) {
-      console.error(err);
-    } else {
-      console.log(body);
-    }
+    !err ? console.log(body) : console.error(err);
   });
-  console.log('PM1.0: ' + data.pm10);
-  console.log('PM2.5: ' + data.pm25);
-  console.log('PM10: ' + data.pm100);
+  console.log(`PM1.0: ${data.pm10}\nPM2.5: ${data.pm25}\nPM10: ${data.pm100}`);
 });
