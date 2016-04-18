@@ -2,11 +2,11 @@
 
 var request = require('request');
 var config = require('./config');
-var serialDevice = require(`./lib/${config.deviceType}`);
+var device = require(`./lib/${config.deviceType}`);
 var POST_API = `http://${config.server}:${config.port}/sensors/` +
                `${config.sensorKey}/data?apiKey=${config.apiKey}`;
 
-serialDevice.on('data', function(data) {
+device.on('data', function(data) {
   request.post(POST_API, {
     form: { pm25Index: data.pm25 }
   }, function(err, response, body) {
