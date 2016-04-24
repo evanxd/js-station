@@ -1,12 +1,12 @@
 'use strict';
 
 module.exports = {
-  server: '127.0.0.1',
-  port: 3000,
+  server: 'localhost',
+  port: 8081,
   // Device Type: `arduino`, `usbttl`, and `simulator`.
   deviceType: 'simulator',
-  sensorKey: 'yourSensorKey',
-  apiKey: 'yourApiKey',
+  sensorId: 'sensorId',
+  apiKey: 'apiKey',
   // The simulator options.
   simulator: {
     samplingRate: 5000,
