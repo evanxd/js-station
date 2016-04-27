@@ -8,7 +8,7 @@ var POST_API = `http://${config.server}:${config.port}/sensors/` +
 
 device.on('data', function(data) {
   request.post(POST_API, {
-    form: { pm25: data.pm25 }
+    form: { pm10: data.pm10, pm25: data.pm25, pm100: data.pm100 }
   }, function(err, response, body) {
     !err ? console.log(body) : console.error(err);
   });
