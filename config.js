@@ -3,7 +3,7 @@
 module.exports = {
   server: 'localhost',
   port: 8081,
-  // Device Type: `arduino`, `usbttl`, and `simulator`.
+  // Device Type: `arduino`, `linkit`, `usbttl`, and `simulator`.
   deviceType: 'simulator',
   sensorId: 'sensorId',
   apiKey: 'apiKey',
